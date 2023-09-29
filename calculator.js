@@ -32,3 +32,14 @@ function operate(operator, num1, num2) {
 let num1;
 let num2;
 let operator;
+let displayValue;
+
+const display = document.querySelector("#display");
+const calculatorBtns = document.querySelectorAll(".btn-digit");
+
+calculatorBtns.forEach((button) => {
+    button.addEventListener('click', () => {
+        //console.log(button.textContent);
+        display.textContent = button.textContent;
+    });
+});

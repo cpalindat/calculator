@@ -1,0 +1,16 @@
+button {
+    background-color: #DCDCDC;
+    border: none;
+    border-radius: 2px;
+    height: 48px;
+    width: 48px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-row {
+    margin: 10px;
+}
